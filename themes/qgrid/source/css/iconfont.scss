@@ -2,7 +2,7 @@
 		font-family: "qgrid-iconfont";
 		src: url('../assets/fonts/qgrid-iconfont.eot');
 		src: url('../assets/fonts/qgrid-iconfont.eot?#iefix') format('eot'), 
-		 url('../assets/fonts/qgrid-iconfont.woff2') format('woff2'),
+		//  url('../assets/fonts/qgrid-iconfont.woff2') format('woff2'),
 		 url('../assets/fonts/qgrid-iconfont.woff') format('woff'), 
 		 url('../assets/fonts/qgrid-iconfont.ttf') format('truetype'), 
 		 url('../assets/fonts/qgrid-iconfont.svg#qgrid-iconfont') format('svg');
@@ -32,10 +32,6 @@
 		content: "\E003";
 }
 
-.icon-github:before {
-		content: "\E004";
-}
-
 .icon-hamburger:before {
 		content: "\E005";
 }
@@ -54,6 +50,22 @@
 
 .icon-vue:before {
 		content: "\E009";
+}
+
+.icon-github:before {
+	content: "\E905";
+}
+
+.icon-npm:before {
+	content: "\E903";
+}
+
+.icon-examples:before {
+	content: "\E900";
+}
+
+.icon-docs:before {
+	content: "\E907";
 }
 
 .qgrid-examples::before {

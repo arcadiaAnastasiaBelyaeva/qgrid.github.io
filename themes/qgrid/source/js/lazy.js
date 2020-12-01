@@ -19,7 +19,7 @@ window.addEventListener('scroll', function () {
 	window.clearTimeout(isScrolling);
 	isScrolling = setTimeout(function () {
 		liveUp();
-	}, 66);
+	}, 22);
 }, false);
 
 document.addEventListener('DOMContentLoaded', liveUp);
