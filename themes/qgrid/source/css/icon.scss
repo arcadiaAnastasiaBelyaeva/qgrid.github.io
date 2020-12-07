@@ -25,15 +25,21 @@
 		@each $class,
 		$props in $map {
 				$url: nth($props, 1);
-				$width: nth($props, 2);
+				$bgSize: nth($props, 2);
 				$height: nth($props, 3);
+				$width: nth($props, 4);
 				.image-#{$class} {
+					&::after {
+						content: '';
 						@extend %icon;
+						display: inline-block;
 						background: url($url) 50% 50% no-repeat;
-						background-size: $width $height;
+						background-size: $bgSize;
+						width: $width;
 						height: $height;
-						flex: 1 50%;
+						max-width: $width;
 						margin: 0;
+					}
 				}
 		}
 }
